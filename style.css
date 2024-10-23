@@ -1,70 +1,70 @@
-html {
-  height: 100%;
-  width: 100%;
-  background-color: lightblue;
-}
+html { /*this tells the rest to define html*/
+  height: 100%; /*this tells the height*/
+  width: 100%; /*this tells the width*/
+  background-color: lightblue; /*this tells the background color*/
+} 
 
-h2 {
-  text-align: center;
+h2 { /*this tells the rest to define html*/
+  text-align: center; /*this tells the tex5t to go to the center*/
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
-nav {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  text-align: center;
+nav { /*this tells the rest to define navigation*/
+  background-color: white; /*this tells the background of nav to be white*/
+  color: black; /*this tells the color opf nav to be black*/
+  padding: 5px; /*the space in nav is 5 pixels*/
+  text-align: center;/*tells the text to be center*/
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: navy;
+ul { /*this tells the rest to define the bulleted list*/
+  list-style-type: none;/*there is no style type*/
+  margin: 0; /*no margin*/
+  padding: 0; /*no padding*/
+  overflow: hidden; /*will not show overflow*/
+  background-color: navy; /*this tells the background color to be navy */
 }
 
-li {
-  float: left;
+li { /*this tells the rest to define the items in list*/
+  float: left; /*tells the items to go on the left side*/
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+li a { /*this tells the rest to define the anchor tag */
+  display: block; /*this shows a block*/
+  color: white; /*this makes the block white*/
+  text-align: center; /*this makes the text centered in the block*/
+  padding: 14px 16px; /*this makes the space 14 and 16 pixels*/
+  text-decoration: none; /*there is no text decoration*/
 }
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
 .city1 {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
+  background-color: tomato; /*make background tomato*/
+  color: white; /*makes the color white*/
+  padding: 10px; /*makes the space 10 pixels*/
 } 
 
 /* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
 .city2 {
-  background-color: lightsalmon;
-  color: white;
-  padding: 10px;
+  background-color: lightsalmon; /*makes background color salmon*/
+  color: white; /*makes color white*/
+  padding: 10px; /*makes the space 10 pixels*/
 } 
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
-  border: solid 5px;
+  display: block; /*makes a block*/
+  margin-left: auto; /*makes the margin automatically left*/
+  margin-right: auto; /*makes the margin automatically right*/
+  width: 50%; /*makes the width 50%*/
+  height: auto; /*makes an auto height*/
+  border: solid 5px; /*the makes the border 5 pixels in width*/
 }
 
 .image1 {
-  border-color: white;
-  padding: 5px;
+  border-color: white; /*this makes the border of the image white*/
+  padding: 5px; /*makes the space around the image 5 pixels*/
 }
 
 .image2 {
-  border-color: white;
-  padding: 20px;
+  border-color: white; /*makes the border white*/
+  padding: 20px; /*makes the space around 20 pixels*/
 }
